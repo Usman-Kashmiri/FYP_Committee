@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FYP - Committee</title>
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/bootstrap.css">
+    <!-- Sweet Alert 2 CSS -->
+    <link rel="stylesheet" href="assets/styles/sweetalert2.min.css">
+    <!-- FontAwesome Icons -->
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section id="Navbar-section">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="admin.html">Create Committee</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="committee.html">Committee Details</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ms-lg-3 ms-md-0 mt-lg-0 mt-md-3 mt-sm-3 mb-lg-0 mb-md-2">
+                        <li class="nav-item btn btn-outline-info">
+                            <a class="nav-link text-white p-0" href="index.html">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="container-fluid">
+        <div class="container overflow-auto d-block shadow-lg rounded-3 position-relative mt-4 mb-4 p-5">
+            <div class="d-flex justify-content-center align-items-center">
+                <button type="submit" class="btn btn-outline-primary" id="committeeBtn">Create Committe</button>
+            </div>
+            <div class="createCommittee">
+                <div class="row position-relative d-flex justify-content-center">
+                    <div class="col-md-8 h-auto">
+                        <div class="login-form bg-light p-4 h-auto rounded-3 shadow-sm">
+                            <form action="" method="" class="row g-5">
+                                <h4 class="text-center">Login</h4>
+                                <div class="col-12">
+                                    <label>Username:</label>
+                                    <input type="text" id="userName" name="username" class="form-control" placeholder="Username" required>
+                                </div>
+                                <div class="col-12 passwordField">
+                                    <label>Email:</label>
+                                    <input type="email" id="userEmail" name="Email" class="form-control" placeholder="Email" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="text-center buttons">
+                                        <input onclick="assignedAlert()" class="btn btn-outline-primary me-md-2 me-sm-0" type="submit" value="Make Committee Head">
+                                        <input onclick="assignedAlert()" class="btn btn-outline-dark" type="submit" value="Make Committee Member">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="assets/scripts/bootstrap.js"></script>
+    <script src="assets/scripts/jquery.js"></script>
+    <!-- Sweet Alert 2 JS -->
+    <script src="assets/scripts/sweetalert2.min.js"></script>
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- Custom Js -->
+    <script defer src="assets/scripts/main.js"></script>
+</body>
+
+</html>
