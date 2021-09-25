@@ -34,3 +34,14 @@ function assignedAlert() {
         showDenyButton: false
     });
 }
+
+// Feed page Script
+$('#postBtn').on('click', function() {
+    $('#post').show();
+    $('#postBtn').hide();
+});
+
+// Rejected Request page Script
+$('.dismissBtn').on('click', function() {
+    $('.rejected').hide();
+});

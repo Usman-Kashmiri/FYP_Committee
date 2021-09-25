@@ -73,4 +73,23 @@
 }
 
 
-/* Upload page CSS */
+/* Feed page CSS */
+
+#post {
+    display: none;
+}
+
+.createPost {
+    height: auto;
+}
+
+.createPost::-webkit-scrollbar {
+    display: none;
+}
+
+.feed-dp {
+    background-color: #111;
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+}
