@@ -64,6 +64,14 @@ i {
 }
 
 
+/* Committe Details page CSS */
+
+.dropdownIcon {
+    position: absolute;
+    right: 75px;
+}
+
+
 /* Request page CSS */
 
 .dp-request {
