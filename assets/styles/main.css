@@ -105,3 +105,11 @@ i {
     height: 55px;
     border-radius: 50px;
 }
+
+
+/* Send Request page CSS */
+
+.reqBtn {
+    position: absolute;
+    right: 75px;
+}
